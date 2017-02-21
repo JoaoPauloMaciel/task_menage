@@ -24,5 +24,5 @@ class Tarefa(object):
     def tarefa(request,valor):
         return HttpResponse("Tarefa: " + str(valor))
 
-    def tarefa(request,ano,mes):
-        return HttpResponse("Data: " + str(ano) +"/"+ str(mes))
+    def tarefa(request,ano,mes,dia):
+        return HttpResponse("Data: " + str(ano) +"/"+ str(mes)+"/"+str(dia))

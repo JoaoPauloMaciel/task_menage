@@ -23,6 +23,6 @@ urlpatterns = [
     url(r'^home', home),
     url(r'^sobre', sobre),
     #url(r'^tarefa/([0-9]{4})/', tarefa),
-    url(r'^tarefa/(?P<ano>[0-9]{4})/(?P<mes>[0-9]{2})/', tarefa),
+    url(r'^tarefa/(?P<ano>[0-9]{4})/(?P<mes>[0-9]{2})/(?P<dia>[0-9]{2})/', tarefa),
 
 ]
